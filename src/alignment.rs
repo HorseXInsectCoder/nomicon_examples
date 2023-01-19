@@ -17,6 +17,13 @@ struct ARepr {
     b: u32      // 4 byte
 }
 
+struct XRepr {
+    a: u8,      // 1 byte
+    c: u16,     // 2 byte
+    // padding     5 byte
+    b: u64      // 8 byte
+}
+
 struct B {
     a: u32,
     b: u32,
